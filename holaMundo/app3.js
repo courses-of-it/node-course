@@ -1,0 +1,9 @@
+setTimeout(function() {
+    console.log('primer timetout');
+}, 3000)
+setTimeout(function() {
+    console.log('segundo timetout');
+}, 0)
+setTimeout(function() {
+    console.log('tercer timetout');
+}, 0)
